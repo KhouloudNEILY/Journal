@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="login.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+        <!-- logo class -->
+         <div class="logo">
+           <p><span>Secret Diary</span></p>
+    
+         </div>
+         <!-- navbar -->
+         <ul  class="nav">
+          <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Log in</a></li>
+            <li><a href="Register.html">Register</a></li>
+         </ul>
+        </header>
+
+
+<script type="text/javascript" src="login.js"></script>
+
+<section   id="log">
+<div class="login">
+    <form name='form-login'   action="login.html">
+
+        <h1>LOG IN</h1>
+
+        <label for="userName"></label>
+        <input type="email" id="userName" placeholder="Username" required>
+
+        <label for="userPw"></label>
+        <input type="password" id= "userPw" placeholder="Password" required>
+
+        <div id="remember">
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                   style="display: inline-block;">
+            <label>Remember me</label>
+        </div>
+
+        <a href="diary.html"> <input id= "login_btn" type="submit" value="Login"  onclick="check()"></a>
+        <!-- <button  input id= "login_btn"   value="Login"    onclick="check()"><a href="diary.html">Login</a></button> -->
+    </form>
+</div>
+</section>
+</body>
+</html>
+
+
