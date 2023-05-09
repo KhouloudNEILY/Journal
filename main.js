@@ -13,7 +13,7 @@ function diaryLocalStorage() {
 	}
 }
 function submit(event){
-    // event.preventDefault()
+    
  if(title.value==""||date.value==""||content.value==""){
 
     alert("please fill in all the fields")
